@@ -2,7 +2,7 @@ package br.com.alura.javaio;
 
 import java.io.*;
 
-public class TesteEscrita2 {
+public class TesteEscritaFileWriter {
 
     public static void main(String[] args) throws IOException {
 //        OutputStream outputStream = new FileOutputStream("lorem-saida.txt");
