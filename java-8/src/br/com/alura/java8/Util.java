@@ -8,4 +8,13 @@ public class Util {
         return Arrays.asList("xicara", "carro vermelho", "aviao Verde", "zig zag");
     }
 
+    public static List<Curso> getCursos() {
+        return Arrays.asList(
+                new Curso("Python",45),
+                new Curso("JavaScript", 150),
+                new Curso("Java 8", 113),
+                new Curso("C", 55)
+        );
+    }
+
 }
